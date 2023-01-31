@@ -1,0 +1,54 @@
+﻿body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    background-color: lightblue;
+    color: darkblue;
+}
+
+label {
+    font-size: 20px;
+    color: darkblue;
+    width: 40%;
+    display: inline-block
+}
+
+
+img{
+    width: auto;
+    max-height: 425px;
+}
+
+form {
+    align-self: auto;
+    display: inline-block;
+}
+
+label {
+    text-size-adjust: auto;
+    color: darkblue;
+    font-size: 15px;
+}
+
+input {
+    color: darkblue;
+}
+
+output1 {
+    text-align: center;
+    color: darkblue;
+}
+
+p {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: darkblue;
+}
+
+h3 {
+    font-family: 'Vladimir Script', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orangered;
+    font-size: 40px;
+
+}
