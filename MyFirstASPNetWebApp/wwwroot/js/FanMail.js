@@ -1,8 +1,7 @@
 ﻿$("#btnSend").click(function () {
+/*document.getElementById("btnSend").addEventListener("click", function() {*/
 
     var final_grade;
-    console.log(document.getElementById("assignment"))
-    console.log(document.getElementById("intex"))
 
 
     final_grade = Number(($("#assignments").val()) * .5) +
@@ -12,8 +11,21 @@
         Number(($("#finalExam").val()) * .1) +
         Number(($("#intex").val()) * .1);
 
-    document.getElementById("output1").innerHTML = final_grade + "%";
+    alert(final_grade + "%");
 
 });
+
+//var a;
+//a = Number(($("#assignments").val()));
+//var b;
+//b = Number(($("#groupProject").val()));
+//console.log(a)
+//console.log(b)
+
+//if (a > 0 || b > 0) {
+//    greeting = "Good day";
+//}
+
+
 
 
